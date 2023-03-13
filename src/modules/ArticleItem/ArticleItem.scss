@@ -1,0 +1,107 @@
+.article-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: 322px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  max-height: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  &:hover {
+    transform: scale(0.97);
+    transition: all 0.3s ease-in-out;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 300px;
+  }
+}
+.article-content {
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 70px;
+}
+.category {
+  color: #1e71bb;
+  font-family: InterMedium;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 12px;
+}
+.headline {
+  padding-top: 10px;
+  font-family: InterMedium;
+  font-size: 16px;
+  font-weight: 400;
+}
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+  width: 90%;
+}
+.author {
+  font-family: InterVBold;
+  font-size: 14px;
+}
+.bookmark {
+  font-family: InterVBold;
+  font-size: 20px;
+  cursor: pointer;
+  &:hover {
+    color: #bb1e1e;
+  }
+}
+.favorite {
+  font-size: 28px;
+  color: #f1e315;
+}
+.articleImage {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  height: 100%;
+  max-width: 322px;
+  max-height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.noArticleImage {
+  background-color: #1d1d1b;
+  width: 100%;
+  height: 130px;
+}
+.article-item-mobile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-width: 322px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  height: 378px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  margin: 20px 0;
+  &:hover {
+    transform: scale(0.97);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.article-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 322px;
+}
